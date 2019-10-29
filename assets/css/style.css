@@ -7,67 +7,15 @@
     font-family: font-family: 'Georgia', Times, 'Times New Roman', serif;
     background-color: white;
 }
-
-.navBar {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 960px;
-    padding: 5px;
-    position: none;
+.navbar {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
 }
-.logo{
-    display: block;
-    background-color: teal;
-    color: white;
-    padding: 5px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 5px;
-    overflow: hidden;
-  }
-  
-  li {
-    float: right;
-  }
-  
-  li a {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #111;
-  }
-  
-  .active {
-    background-color: #4CAF50;
-  }
-
-a   {
-    text-decoration: none;
+#navbarNav{
+  float: right;
 }
 
 p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-
-input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-  }
-.porfilePic{
-    float:left
-}
-
-.clearfix {
-    overflow: auto;
 }
